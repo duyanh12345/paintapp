@@ -1,0 +1,38 @@
+body{
+    background-color: blanchedalmond;
+    touch-action: none;
+}
+
+div {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+canvas {
+    height: 100%;
+    width: 100%;
+}
+
+span {
+    cursor: pointer;
+}
+
+section {
+    background-color: white;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+img{
+    width: 10px;
+    height: 10px;
+}

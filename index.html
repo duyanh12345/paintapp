@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=divice-width , initial-scale= 1.0" />
+        <title>Paint</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div>
+            <section>
+                <ul>
+                    <li>
+                        <img src="img/draw.png"/>
+                        <span id = "draw">Draw</span>
+                    </li>
+                    <li>
+                        <img src="img/line.png"/>
+                        <span id = "line">Line</span>
+                    </li>
+                    <li>
+                        <img src="img/Triangle.png"/>
+                        <span id = "triangle">Triangle</span>
+                    </li>
+                    <li>
+                        <img src="img/Rectangle.jpg"/>
+                        <span id = "rectangle">Rectangle</span>
+                    </li>
+                    <li>
+                        <img src="img/Circle.png"/>
+                        <span id = "circle">Circle</span>
+                    </li>
+                    <li>
+                        <img src="img/Delete.png"/>
+                        <span id = "delete">Delete</span>
+                    </li>
+                    <li>
+                        <img src="img/Cut.png"/>
+                        <span id = "cut">Cut</span>
+                    </li>
+                    <br>
+                    <li>
+                        <span>Linewidth</span>
+                        <br>
+                        <input type="range" id="size" min="0" max="10">
+                    </li>
+                    <br>
+                    <li>
+                        <span>Color</span>
+                        <br>
+                        <input type="color" id="color">
+                    </li>
+                </ul>
+            </section>
+            <section style="flex: 1; display: flex">
+                <canvas id="canvas"></canvas>
+            </section>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+
+</html>
